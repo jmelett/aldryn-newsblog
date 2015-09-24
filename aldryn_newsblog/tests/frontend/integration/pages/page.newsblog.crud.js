@@ -46,7 +46,8 @@ var newsBlogPage = {
 
     // adding new article
     addArticleButton: element(by.css('.model-article .addlink')),
-    languageTabs: element.all(by.css('.parler-language-tabs > .empty > a')),
+    englishLanguageTab: element(by.css(
+        '.parler-language-tabs > .empty > a[href*="language=en"]')),
     saveAndContinueButton: element(by.css('.submit-row [name="_continue"]')),
     editArticleLinks: element.all(by.css(
         '.results th > [href*="/aldryn_newsblog/article/"]')),
@@ -57,6 +58,7 @@ var newsBlogPage = {
         '.cms_toolbar-item-navigation [href*="advanced-settings"]')),
     modalIframe: element(by.css('.cms_modal-frame iframe')),
     applicationSelect: element(by.id('application_urls')),
+    newsBlogOption: element(by.css('option[value="NewsBlogApp"]')),
     saveModalButton: element(by.css('.cms_modal-buttons .cms_btn-action')),
     newsBlogMetaBlock: element(by.css('.aldryn-newsblog-meta')),
     articleLink: element(by.css('.aldryn-newsblog-list h2 > a')),
