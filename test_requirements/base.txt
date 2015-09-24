@@ -1,5 +1,5 @@
 aldryn-search
-aldryn-apphook-reload
+https://github.com/aldryn/aldryn-apphook-reload/archive/develop.zip#egg=aldryn_apphook_reload
 coverage>=3.7.1
 dj-database-url
 django-classy-tags
@@ -11,7 +11,7 @@ djangocms-admin-style
 # djangocms-helper has issues with management command which is fixed but
 # not released yet, so use develop branch temporary.
 # TODO: please replace with a release >0.9.0
-https://github.com/nephila/djangocms-helper/archive/develop.zip
+https://github.com/nephila/djangocms-helper/archive/develop.zip#egg=djangocms_helper
 djangocms_text_ckeditor
 docopt
 flake8
